@@ -13,10 +13,10 @@
         android:layout_marginStart="17dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="17dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="416dp"
         android:text="Comida"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toTopOf="@+id/limpieza"
+        app:layout_constraintBottom_toTopOf="@+id/btnActualizar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -62,4 +62,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/curacion" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="216dp"
+        android:text="Actualizar"
+        android:onClick="btnActualizar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comida" />
 </androidx.constraintlayout.widget.ConstraintLayout>
